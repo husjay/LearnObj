@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B3389CCD-F910-4410-9D5A-E39E556F7847</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EC6CC3ABA5947B474091B48767375D7C3F970FE0</key>
+		<string>github.com:husjay/LearnObj</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BOOL Party/BOOL Party.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EC6CC3ABA5947B474091B48767375D7C3F970FE0</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:husjay/LearnObj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EC6CC3ABA5947B474091B48767375D7C3F970FE0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EC6CC3ABA5947B474091B48767375D7C3F970FE0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LearnObj</string>
+		</dict>
+	</array>
+</dict>
+</plist>
