@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6178CDC11B7860D800F6F962 /* Tire.m in Sources */ = {isa = PBXBuildFile; fileRef = 6178CDC01B7860D800F6F962 /* Tire.m */; };
+		6178CDC41B78610000F6F962 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6178CDC31B78610000F6F962 /* Engine.m */; };
+		6178CDC71B78633E00F6F962 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 6178CDC61B78633E00F6F962 /* Car.m */; };
+		6178CDCA1B786A2000F6F962 /* AllWeatherRadial.m in Sources */ = {isa = PBXBuildFile; fileRef = 6178CDC91B786A2000F6F962 /* AllWeatherRadial.m */; };
+		6178CDD01B786B8E00F6F962 /* Slant6.m in Sources */ = {isa = PBXBuildFile; fileRef = 6178CDCF1B786B8E00F6F962 /* Slant6.m */; };
+		6178CDD21B786C8700F6F962 /* CarParts.m in Sources */ = {isa = PBXBuildFile; fileRef = 6178CDD11B786C8700F6F962 /* CarParts.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6178CDB31B783D7200F6F962 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6178CDB51B783D7200F6F962 /* CarParts */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CarParts; sourceTree = BUILT_PRODUCTS_DIR; };
+		6178CDBF1B7860D800F6F962 /* Tire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tire.h; sourceTree = "<group>"; };
+		6178CDC01B7860D800F6F962 /* Tire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tire.m; sourceTree = "<group>"; };
+		6178CDC21B78610000F6F962 /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		6178CDC31B78610000F6F962 /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		6178CDC51B78633E00F6F962 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		6178CDC61B78633E00F6F962 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		6178CDC81B786A2000F6F962 /* AllWeatherRadial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllWeatherRadial.h; sourceTree = "<group>"; };
+		6178CDC91B786A2000F6F962 /* AllWeatherRadial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllWeatherRadial.m; sourceTree = "<group>"; };
+		6178CDCE1B786B8E00F6F962 /* Slant6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slant6.h; sourceTree = "<group>"; };
+		6178CDCF1B786B8E00F6F962 /* Slant6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slant6.m; sourceTree = "<group>"; };
+		6178CDD11B786C8700F6F962 /* CarParts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarParts.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6178CDB21B783D7200F6F962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6178CDAC1B783D7200F6F962 = {
+			isa = PBXGroup;
+			children = (
+				6178CDB71B783D7200F6F962 /* CarParts */,
+				6178CDB61B783D7200F6F962 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6178CDB61B783D7200F6F962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6178CDB51B783D7200F6F962 /* CarParts */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6178CDB71B783D7200F6F962 /* CarParts */ = {
+			isa = PBXGroup;
+			children = (
+				6178CDC51B78633E00F6F962 /* Car.h */,
+				6178CDC61B78633E00F6F962 /* Car.m */,
+				6178CDD11B786C8700F6F962 /* CarParts.m */,
+				6178CDC81B786A2000F6F962 /* AllWeatherRadial.h */,
+				6178CDC91B786A2000F6F962 /* AllWeatherRadial.m */,
+				6178CDBF1B7860D800F6F962 /* Tire.h */,
+				6178CDC01B7860D800F6F962 /* Tire.m */,
+				6178CDC21B78610000F6F962 /* Engine.h */,
+				6178CDC31B78610000F6F962 /* Engine.m */,
+				6178CDCE1B786B8E00F6F962 /* Slant6.h */,
+				6178CDCF1B786B8E00F6F962 /* Slant6.m */,
+			);
+			path = CarParts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6178CDB41B783D7200F6F962 /* CarParts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6178CDBC1B783D7200F6F962 /* Build configuration list for PBXNativeTarget "CarParts" */;
+			buildPhases = (
+				6178CDB11B783D7200F6F962 /* Sources */,
+				6178CDB21B783D7200F6F962 /* Frameworks */,
+				6178CDB31B783D7200F6F962 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarParts;
+			productName = CarParts;
+			productReference = 6178CDB51B783D7200F6F962 /* CarParts */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6178CDAD1B783D7200F6F962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = hsjay;
+				TargetAttributes = {
+					6178CDB41B783D7200F6F962 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 6178CDB01B783D7200F6F962 /* Build configuration list for PBXProject "CarParts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6178CDAC1B783D7200F6F962;
+			productRefGroup = 6178CDB61B783D7200F6F962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6178CDB41B783D7200F6F962 /* CarParts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6178CDB11B783D7200F6F962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6178CDC11B7860D800F6F962 /* Tire.m in Sources */,
+				6178CDC71B78633E00F6F962 /* Car.m in Sources */,
+				6178CDC41B78610000F6F962 /* Engine.m in Sources */,
+				6178CDD21B786C8700F6F962 /* CarParts.m in Sources */,
+				6178CDCA1B786A2000F6F962 /* AllWeatherRadial.m in Sources */,
+				6178CDD01B786B8E00F6F962 /* Slant6.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6178CDBA1B783D7200F6F962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6178CDBB1B783D7200F6F962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6178CDBD1B783D7200F6F962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6178CDBE1B783D7200F6F962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6178CDB01B783D7200F6F962 /* Build configuration list for PBXProject "CarParts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6178CDBA1B783D7200F6F962 /* Debug */,
+				6178CDBB1B783D7200F6F962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6178CDBC1B783D7200F6F962 /* Build configuration list for PBXNativeTarget "CarParts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6178CDBD1B783D7200F6F962 /* Debug */,
+				6178CDBE1B783D7200F6F962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6178CDAD1B783D7200F6F962 /* Project object */;
+}
